@@ -42,21 +42,9 @@ squares.forEach(square => {
 })
 
 function moveMole() {
-    if (currentTime > 50) {
         timerId = setInterval(randomSquare, 1000);
-    } else if (currentTime > 40) {
-        timerId = setInterval(randomSquare, 900);
-    } else if (currentTime > 30) {
-        timerId = setInterval(randomSquare, 800);
-    } else if (currentTime > 20) {
-        timerId = setInterval(randomSquare, 700);
-    } else if (currentTime > 10) {
-        timerId = setInterval(randomSquare, 600);
-    } else {
-        timerId = setInterval(randomSquare, 500);
-    }
-    
-   
+
+
     
 }
 
@@ -71,5 +59,4 @@ function countDown() {
         alert('Game Over! Your final score is ' + result);
     }
 }
-
 let countDownTimerId = setInterval(countDown, 1000);
