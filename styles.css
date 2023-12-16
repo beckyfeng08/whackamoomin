@@ -1,0 +1,42 @@
+.grid {
+    width: 660px;
+    height: 660px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square:hover {
+    background-color:bisque;
+    cursor: url('hover.png'), auto;
+
+}
+.square.clickedhit {
+    background-color:lightgreen;
+    cursor: url('click.png'), auto;
+}
+.square.clickedmiss {
+    background-color:indianred;
+    cursor: url('click.png'), auto;
+
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    margin: 5px;
+
+    border: solid plum 5px;
+}
+
+.mole {
+    background-image: url(nidorino.png);
+    background-size: cover;
+}
+h2 {
+    color: darkolivegreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    cursor: url('regular.png'),auto;
+  }
